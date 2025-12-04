@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização das Minhas Finanças Pessoais com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -70,19 +70,102 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+### PRD refinado no Copilot Web:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+```
+# Documento de Requisitos de Produto (PRD)
+
+## Contexto
+O aplicativo tem como objetivo facilitar a organização de finanças pessoais por meio de conversas em linguagem natural.  
+A proposta é eliminar a complexidade de formulários e planilhas, oferecendo uma experiência simples e acessível.
+
+## Problema
+Muitas pessoas desistem de controlar seus gastos porque os aplicativos atuais exigem muita entrada manual e oferecem pouca personalização.  
+A solução proposta deve reduzir essa barreira, permitindo interação natural e recomendações automáticas de economia.
+
+## Público-Alvo
+- Pessoas iniciantes no controle financeiro.
+- Usuários que buscam praticidade e simplicidade.
+- Indivíduos que desejam melhorar hábitos de consumo sem complexidade técnica.
+
+## Objetivo do Produto
+Criar um aplicativo conversacional que permita registrar gastos, acompanhar metas e receber dicas de economia de forma acessível, inclusiva e agradável.  
+O design deve seguir os princípios de **Design Universal**, garantindo boa experiência para o maior número possível de usuários, independentemente de idade, habilidades ou contexto.
+
+## Funcionalidades-Chave
+1. Registro de gastos via chat em linguagem natural.
+2. Classificação automática das transações.
+3. Definição e acompanhamento de metas financeiras.
+4. Recomendações de economia fornecidas pelo "Agente Financeiro".
+5. Relatórios simples e personalizados.
+
+## Telas Principais
+- **Tela de Conversa:** interface de chat para registrar gastos e interagir com o agente financeiro.
+- **Tela de Metas:** cards com metas, progresso e sugestões de contribuição.
+- **Tela de Relatórios:** gráficos básicos e destaques automáticos sobre hábitos de consumo.
+- **Tela de Dicas:** recomendações curtas e educativas de economia.
+
+## Recursos Necessários
+- Processamento de Linguagem Natural (NLP) para interpretar frases.
+- Algoritmo de classificação automática de transações.
+- Banco de dados para armazen
+```
+## Interações com o Lovable:
+
+>Por favor, crie um app de finanças pessoais com base no seguinte PRD(Documento de Requisitos de Produto): {PRD}
+
+>Coloquei alguns gastos diversos e o chat adicionou todos na categoria alimentação. Tem como corrigir esta questão?
+
+
+## Resultado final do Lovable: https://conversant-funds.lovable.app
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/adbe73f3-d22b-4060-9db1-e95947c8913a" />
+  
+
+
+## Resumo do Aplicativo
+
+### Contexto
+O aplicativo busca simplificar a organização das finanças pessoais por meio de conversas em linguagem natural, eliminando a necessidade de formulários e planilhas complexas.
+
+### Problema
+Muitos usuários abandonam o controle financeiro devido à entrada manual excessiva e baixa personalização. O app propõe reduzir essa barreira com interação natural e recomendações automáticas.
+
+### Público-Alvo
+- Iniciantes no controle financeiro  
+- Pessoas que valorizam praticidade e simplicidade  
+- Usuários que desejam melhorar hábitos de consumo sem complexidade técnica  
+
+### Objetivo
+Criar um aplicativo conversacional que permita registrar gastos, acompanhar metas e receber dicas de economia de forma acessível e inclusiva, seguindo princípios de **Design Universal**.
+
+### Funcionalidades
+1. Registro de gastos via chat  
+2. Classificação automática de transações  
+3. Definição e acompanhamento de metas financeiras  
+4. Recomendações de economia pelo "Agente Financeiro"  
+5. Relatórios simples e personalizados  
+
+### Telas
+- **Conversa:** chat para registrar gastos e interagir  
+- **Metas:** cards com objetivos, progresso e sugestões  
+- **Relatórios:** gráficos básicos e destaques de consumo  
+- **Dicas:** recomendações curtas e educativas  
+
+### Recursos
+- Processamento de Linguagem Natural (NLP)  
+- Algoritmo de classificação automática  
+- Banco de dados para armazenamento  
+
+
+## 🤔 Uma breve reflexão sobre o processo:
+  - O que funcionou bem?
+     *Rapidamente, o Lovable foi desenvolvendo todo o código da o aplicativo, a design foi intuitivo e de fácil acesso.*
+  - O que não funcionou como o esperado?
+    *Eu colocava novas despesas e o site segmentava todos para a categoria de alimentação. Foi feito um prompt de correção e o Lovable prontamente corrigiu o erro.*   
   - O que aprendeu sobre conversar com IAs?
-
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+    *Aprendi que podemos pedir muitas coisas mas devemos sempre checar as respostas e fazer testes e pedidos de melhorias contínuas.*
 
 ## 💬 Conclusão
 
